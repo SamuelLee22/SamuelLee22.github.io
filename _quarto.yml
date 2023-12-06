@@ -11,12 +11,9 @@ website:
         href: project.qmd
       - text: Blog
         href: blog-listing.qmd
-      - text: Classwork
-        href: danl-200-cw-10.qmd 
-      - text: "Projects"
+      - text: "Project"
         menu:
-          - project_1.qmd
-          - project_2.qmd
+          - project.qmd
   page-footer: 
     center: "Powered with GitHub and Quarto<br>© Samuel Lee, 2023"
 
