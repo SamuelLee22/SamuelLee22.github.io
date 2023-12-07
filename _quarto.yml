@@ -7,8 +7,6 @@ website:
   navbar:
     pinned: true
     left:
-      - text: Project
-        href: project.qmd
       - text: Blog
         href: blog-listing.qmd
       - text: "Projects"
