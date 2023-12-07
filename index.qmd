@@ -15,7 +15,7 @@ about:
       href: https://www.instagram.com/samlee22_/ 
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/SamuelLee22/SamuelLee22.github.io 
     - icon: file-earmark-pdf
       text: Resumé
       href: file:///C:/Users/leesa/Documents/School%20Documents/Samuel_Lee_Resume.pdf
