@@ -3,7 +3,7 @@ project:
   output-dir: "."
 
 website:
-  title: "Samuel Lee"
+  title: "Samuel Lee's Data Analytics Website"
   navbar:
     pinned: true
     left:
@@ -21,7 +21,7 @@ format:
   html:
     theme: spacelab
     mainfont: system-ui; 
-    highlight-style: kate
+    highlight-style: espresso
     css: styles.css
     toc: false
     include-after-body: target_blank.html
