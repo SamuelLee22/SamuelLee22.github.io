@@ -9,33 +9,34 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/samuel-lee-3a003429a/ 
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://www.instagram.com/samlee22_/ 
     - icon: github
       text: GitHub
       href: https://github.com
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: file:///C:/Users/leesa/Documents/School%20Documents/Samuel_Lee_Resume.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:sl100@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Samuel Lee majors in Biology at SUNY Geneseo with a minor in Human Development and Sustainability Sciences. When not studying, he enjoys playing a variety of sports including basketball, football, volleyball, skiing, etc.  
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+B.A. in Biology | Aug 2021 - May 2025 <br>
+Minor in Human Development and Sustainability Sciences
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+Ecology | Data Analyst | January 2023 - May 2023
+Data Analytics | Data Analysts | August 2023 - December 2023
 
 
