@@ -1,8 +1,8 @@
 ---
 title: "Samuel Lee"
 about:
-  template: solana  # jolla  trestles  solana  marquee  broadside
-  image: IMG_7803.png 
+  template: broadside  # jolla  trestles  solana  marquee  broadside
+  image: website.JPG  
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
@@ -36,16 +36,11 @@ Minor in Human Development and Sustainability Sciences
 
 ## Experience
 
-Ecology | Data Analyst | January 2023 - May 2023
-
-Data Analytics | Data Analyst | August 2023 - December 2023
-
-Livingston County EMS | EMT Intern | September 2022 - January 2023
-
-SUNY Geneseo First Response | EMT-B Attendant | Septemeber 2022 - Current
-
-Dollar General | Cashier | June 2022 - Current
-
-The Transit Drive-In | Associate | June 2022 - Current
+Ecology | Data Analyst | January 2023 - May 2023 <br>
+Data Analytics | Data Analyst | August 2023 - December 2023 <br>
+Livingston County EMS | EMT Intern | September 2022 - January 2023 <br>
+SUNY Geneseo First Response | EMT-B Attendant | Septemeber 2022 - Current <br>
+Dollar General | Cashier | June 2022 - Current <br>
+The Transit Drive-In | Associate | June 2022 - Current <br>
 
 
