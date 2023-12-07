@@ -11,7 +11,7 @@ website:
         href: project.qmd
       - text: Blog
         href: blog-listing.qmd
-      - text: "Project"
+      - text: "Projects"
         menu:
           - project.qmd
   page-footer: 

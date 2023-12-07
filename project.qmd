@@ -1,5 +1,5 @@
 ---
-title: DANL Project
+title: Group Project
 subtitle: "Data-Driven Mastery: Unlocking Business Potential"
 author: 
   - Samuel Lee
