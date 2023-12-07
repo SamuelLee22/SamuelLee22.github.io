@@ -19,9 +19,9 @@ website:
 
 format:
   html:
-    theme: spacelab
+    theme: darkly
     mainfont: system-ui; 
-    highlight-style: espresso
+    highlight-style: kate
     css: styles.css
     toc: false
     include-after-body: target_blank.html

@@ -2,7 +2,7 @@
 title: "Background"
 about:
   template: jolla  # jolla  trestles  solana  marquee  broadside
-  image: website.JPG  
+  image: IMG_7803.jpg
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
