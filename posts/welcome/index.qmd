@@ -5,8 +5,6 @@ date: "2023-12-07"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+Welcome to my blog! Take a look at some of the other posts under the blog tab to find some interesting data!
 
 ![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
