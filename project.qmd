@@ -2,11 +2,12 @@
 title: DANL Project
 subtitle: "Data-Driven Mastery: Unlocking Business Potential"
 author: 
-  - Name 1
-  - Name 2
-  - Name 3
-  - Name 4
-  - Name 5
+  - Samuel Lee
+  - Mike Conklin
+  - Anderson Wise
+  - Mathew Brown
+  - Neil Downey
+  - Liam Keyes
 
 toc: true
 toc-title: "Table of Contents"
@@ -75,18 +76,6 @@ rmarkdown::paged_table(mpg)
 ```{r}
 skim(mpg) %>% 
   select(-n_missing)
-```
-
-
-## MPG and a Type of Cars
-The following boxplot shows how the distribution of highway MPG (`hwy`) varies by a type of cars (`class`) :blue_car: :truck: :minibus:.
-
-
-```{r}
-ggplot(data = mpg) +
-  geom_boxplot(aes(x = class, y = hwy, fill = class),
-               show.legend = F) +
-  labs(x = "Class", y = "Highway\nMPG") 
 ```
 
 
