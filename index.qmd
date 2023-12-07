@@ -1,5 +1,5 @@
 ---
-title: "Background"
+title: "Samuel Lee"
 about:
   template: jolla  # jolla  trestles  solana  marquee  broadside
   image: IMG_7803.jpg
@@ -26,7 +26,7 @@ about:
 ---
 
 
-My name is Samuel Lee and I am a Biology major at SUNY Geneseo with a minor in Human Development and Sustainability Sciences. I am currently employed at SUNY Geneseo First Response as an EMT-B, Dollar General as a cashier, and The Transit Drive-In as an associate. In my free time I enjoy playing a variety of sports including basketball, football, volleyball, and skiing. I plan to attend graduate school at The University of Buffalo and obtain a degree in Epidemiology or Environmental Public Health.
+I am a Biology major at SUNY Geneseo with a minor in Human Development and Sustainability Sciences. I am currently employed at SUNY Geneseo First Response as an EMT-B. In my free time I enjoy playing a variety of sports including basketball, football, volleyball, and skiing. I plan to attend graduate school at The University of Buffalo and obtain a degree in Epidemiology or Environmental Public Health.
 
 ## Education
 
@@ -38,9 +38,7 @@ Minor in Human Development and Sustainability Sciences
 
 Ecology | Data Analyst | January 2023 - May 2023 <br>
 Data Analytics | Data Analyst | August 2023 - December 2023 <br>
-Livingston County EMS | EMT Intern | September 2022 - January 2023 <br>
 SUNY Geneseo First Response | EMT-B Attendant | Septemeber 2022 - Current <br>
-Dollar General | Cashier | June 2022 - Current <br>
-The Transit Drive-In | Associate | June 2022 - Current <br>
+SUNY Geneseo Psychology Department | Research Assistant | January 2023 - May 2023 <br> 
 
 
