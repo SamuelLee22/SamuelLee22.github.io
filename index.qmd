@@ -18,7 +18,7 @@ about:
       href: https://github.com/SamuelLee22/SamuelLee22.github.io 
     - icon: file-earmark-pdf
       text: Resumé
-      href: C:/Users/leesa/Documents/School%20Documents/Samuel_Lee_Resume.pdf
+      href: dataresume.pdf
     - icon: mailbox
       text: Email
       href: mailto:sl100@geneseo.edu
