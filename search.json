@@ -39,7 +39,7 @@
     "href": "blog-listing.html",
     "title": "Data Analysis ",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nSamuel Lee\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nNYC Restuarant Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nSamuel Lee\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -47,5 +47,26 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "Welcome to my blog! Take a look at some of the other posts under the blog tab to find some interesting data!"
+  },
+  {
+    "objectID": "posts/NYC Restaurants/NYC-res.html",
+    "href": "posts/NYC Restaurants/NYC-res.html",
+    "title": "NYC Restuarant Data",
+    "section": "",
+    "text": "1 Introduction\nThe data frame restaurant displays inspection data from a variety of restaurants across New York City\n\n\n2 Data\n##Summary Statistics\n\n\n\n  \n\n\n\nskim(restaurant) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nrestaurant\n\n\nNumber of rows\n17633\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n10\n\n\nnumeric\n2\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nDBA\n1\n1\n75\n0\n13914\n0\n\n\nBORO\n1\n5\n13\n0\n5\n0\n\n\nSTREET\n1\n5\n40\n0\n2038\n0\n\n\nCUISINE DESCRIPTION\n1\n4\n30\n0\n87\n0\n\n\nINSPECTION DATE\n1\n10\n10\n0\n751\n0\n\n\nACTION\n1\n33\n47\n0\n2\n0\n\n\nVIOLATION CODE\n1\n3\n5\n0\n60\n0\n\n\nVIOLATION DESCRIPTION\n1\n19\n940\n0\n101\n0\n\n\nCRITICAL FLAG\n1\n8\n12\n0\n2\n0\n\n\nGRADE\n1\n1\n1\n0\n3\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nCAMIS\n1\n47112537.51\n4197913.0\n30191841\n41551354\n50049290\n50094455\n50133690\n▁▁▃▁▇\n\n\nSCORE\n1\n10.44\n5.9\n0\n7\n10\n12\n86\n▇▁▁▁▁\n\n\n\n\n\n##Visualization\nHow does the distribution of SCORE vary by GRADE?\n\nggplot(data = restaurant) +\n  geom_boxplot(mapping = aes(x = GRADE, y = SCORE))\n\n\n\n\nHow does the distribution of SCORE vary by GRADE and CRITICAL FLAG?\n\nggplot(data = restaurant) +\n  geom_boxplot(mapping = aes(x = GRADE, y = SCORE)) +\n                 facet_wrap(. ~ `CRITICAL FLAG`)\n\n\n\n\nHow does the proportion of CRITICAL FLAG varies by GRADE and BORO?\n\nggplot(restaurant, aes(x = GRADE, fill = `CRITICAL FLAG`)) +\n  geom_bar() +\n  facet_wrap(. ~ BORO)"
+  },
+  {
+    "objectID": "posts/NYC Restaurants/NYC-res.html#summary-statistics",
+    "href": "posts/NYC Restaurants/NYC-res.html#summary-statistics",
+    "title": "NYC Restuarant Data",
+    "section": "2.1 Summary Statistics",
+    "text": "2.1 Summary Statistics\n\n\n\n  \n\n\n\nskim(restaurant) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nrestaurant\n\n\nNumber of rows\n17633\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n10\n\n\nnumeric\n2\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nDBA\n1\n1\n75\n0\n13914\n0\n\n\nBORO\n1\n5\n13\n0\n5\n0\n\n\nSTREET\n1\n5\n40\n0\n2038\n0\n\n\nCUISINE DESCRIPTION\n1\n4\n30\n0\n87\n0\n\n\nINSPECTION DATE\n1\n10\n10\n0\n751\n0\n\n\nACTION\n1\n33\n47\n0\n2\n0\n\n\nVIOLATION CODE\n1\n3\n5\n0\n60\n0\n\n\nVIOLATION DESCRIPTION\n1\n19\n940\n0\n101\n0\n\n\nCRITICAL FLAG\n1\n8\n12\n0\n2\n0\n\n\nGRADE\n1\n1\n1\n0\n3\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nCAMIS\n1\n47112537.51\n4197913.0\n30191841\n41551354\n50049290\n50094455\n50133690\n▁▁▃▁▇\n\n\nSCORE\n1\n10.44\n5.9\n0\n7\n10\n12\n86\n▇▁▁▁▁"
+  },
+  {
+    "objectID": "posts/NYC Restaurants/NYC-res.html#visualization",
+    "href": "posts/NYC Restaurants/NYC-res.html#visualization",
+    "title": "NYC Restuarant Data",
+    "section": "2.2 Visualization",
+    "text": "2.2 Visualization\nHow does the distribution of SCORE vary by GRADE?\n\nggplot(data = restaurant) +\n  geom_boxplot(mapping = aes(x = GRADE, y = SCORE))\n\n\n\n\nHow does the distribution of SCORE vary by GRADE and CRITICAL FLAG?\n\nggplot(data = restaurant) +\n  geom_boxplot(mapping = aes(x = GRADE, y = SCORE)) +\n                 facet_wrap(. ~ `CRITICAL FLAG`)\n\n\n\n\nHow does the proportion of CRITICAL FLAG vary by GRADE and BORO?\n\nggplot(restaurant, aes(x = GRADE, fill = `CRITICAL FLAG`)) +\n  geom_bar() +\n  facet_wrap(. ~ BORO)"
   }
 ]
