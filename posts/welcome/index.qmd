@@ -2,7 +2,7 @@
 title: "Welcome To My Blog"
 author: "Samuel Lee"
 date: "2023-12-07"
-categories: [news]
+categories: [News]
 ---
 
 Welcome to my blog! Take a look at some of the other posts under the blog tab to find some interesting data!
