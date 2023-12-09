@@ -32,7 +32,7 @@
     "href": "blog-listing.html",
     "title": "Data Analysis ",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nNYC Restuarant Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nSamuel Lee\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nSpotify Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nNYC Restuarant Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nSamuel Lee\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -61,5 +61,26 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "Welcome to my blog! Take a look at some of the other posts under the blog tab to find some interesting data!"
+  },
+  {
+    "objectID": "posts/Spotify/Spotify.html",
+    "href": "posts/Spotify/Spotify.html",
+    "title": "Spotify Data",
+    "section": "",
+    "text": "library(dplyr)\n\nnew_dataset &lt;- subset(spotify_all, select = c(track_name, artist_name))\nsong_counts &lt;- new_dataset %&gt;% group_by(track_name, artist_name) %&gt;% tally()\ncolnames(song_counts) &lt;- c(\"track_name\", \"artist_name\", \"count\")\nsorted_songs &lt;- song_counts %&gt;% arrange(desc(count))\ntop_10_songs_with_artist &lt;- head(sorted_songs, 10)\nprint(top_10_songs_with_artist)\n\n# A tibble: 10 × 3\n# Groups:   track_name [10]\n   track_name                          artist_name      count\n   &lt;chr&gt;                               &lt;chr&gt;            &lt;int&gt;\n 1 One Dance                           Drake              143\n 2 HUMBLE.                             Kendrick Lamar     142\n 3 Closer                              The Chainsmokers   129\n 4 Broccoli (feat. Lil Yachty)         DRAM               127\n 5 Congratulations                     Post Malone        119\n 6 Bad and Boujee (feat. Lil Uzi Vert) Migos              117\n 7 iSpy (feat. Lil Yachty)             KYLE               115\n 8 XO TOUR Llif3                       Lil Uzi Vert       113\n 9 Caroline                            Aminé              107\n10 Location                            Khalid             102\n\nspecific_artists &lt;- c(\"Drake\", \"Kanye West\", \"Kendrick Lamar\", \"Rihanna\",\n                      \"The Weeknd\", \"Future\", \"Eminem\", \"Lil Uzi Vert\",\n                      \"Ed Sheeran\", \"The Chainsmokers\")\nq1c_data &lt;- subset(spotify_all, artist_name %in% specific_artists)"
+  },
+  {
+    "objectID": "posts/Spotify/Spotify.html#summary-statistics",
+    "href": "posts/Spotify/Spotify.html#summary-statistics",
+    "title": "Spotify Data",
+    "section": "2.1 Summary Statistics",
+    "text": "2.1 Summary Statistics\n\n\n\n  \n\n\n\nskim(spotify_all) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nspotify_all\n\n\nNumber of rows\n198005\n\n\nNumber of columns\n7\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n4\n\n\nnumeric\n3\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nplaylist_name\n1\n2\n55\n0\n2184\n0\n\n\nartist_name\n1\n1\n117\n0\n18866\n0\n\n\ntrack_name\n1\n1\n216\n0\n64115\n0\n\n\nalbum_name\n1\n1\n255\n0\n35497\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\npid\n1\n323435.50\n466890.21\n0\n738\n1476\n999210\n999998\n▇▁▁▁▃\n\n\npos\n1\n54.39\n48.35\n0\n17\n40\n79\n248\n▇▃▂▁▁\n\n\nduration_ms\n1\n234740.84\n132918.60\n0\n198000\n224693\n258533\n20744575\n▇▁▁▁▁"
+  },
+  {
+    "objectID": "posts/Spotify/Spotify.html#visualization",
+    "href": "posts/Spotify/Spotify.html#visualization",
+    "title": "Spotify Data",
+    "section": "2.2 Visualization",
+    "text": "2.2 Visualization\nWho are the top 10 most popular artists (artist_name)?\n\nartist_counts &lt;- table(new_dataset$artist_name)\nartist_counts_df &lt;- as.data.frame(artist_counts)\ncolnames(artist_counts_df) &lt;- c(\"artist_name\", \"count\")\nsorted_artists &lt;- artist_counts_df[order(desc(artist_counts_df$count)), ]\ntop_artists &lt;- head(sorted_artists, 10)\nprint(top_artists)\n\n           artist_name count\n4648             Drake  2715\n8693        Kanye West  1065\n8867    Kendrick Lamar  1035\n13670          Rihanna   915\n17035       The Weeknd   913\n5948            Future   784\n5083            Eminem   760\n9754      Lil Uzi Vert   728\n4829        Ed Sheeran   719\n16057 The Chainsmokers   642\n\n\nWhat is the relationship of song rank (pos) and the top 10 artists (artist_name)?\n\nggplot(data = q1c_data) +\n  geom_boxplot(mapping = aes(x = artist_name , y = pos))\n\n\n\n\nWhat is the relationship between duration (duration_ms) and the top 10 artists?\n\nggplot(data = q1c_data) +\n  geom_boxplot(mapping = aes(x =artist_name, y = pos))\n\n\n\n\nWhat is the relationship between playlist (playlist_name) and pos?\n\nggplot(data = spotify_all) +\n  geom_boxplot(mapping = aes(x = playlist_name, y = pos))"
   }
 ]
