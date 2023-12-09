@@ -19,7 +19,7 @@ execute:
 from: markdown+emoji
 ---
 
-![](spotify.jpg)
+![](spotify.png)
 
 ```{r setup}
 #| include: false
@@ -118,6 +118,6 @@ ggplot(data = q1c_data) +
 What is the relationship between duration (`duration_ms`) and the top 10 artists?
 ```{r}
 ggplot(data = q1c_data) +
-  geom_boxplot(mapping = aes(x =artist_name, y = pos))
+  geom_boxplot(mapping = aes(x =artist_name, y = duration_ms))
 ```
 
