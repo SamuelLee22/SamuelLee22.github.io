@@ -19,8 +19,7 @@ execute:
 from: markdown+emoji
 ---
 
-![](Spotify.jpg) 
-
+![](spotify.jpg)
 
 ```{r setup}
 #| include: false
@@ -102,7 +101,14 @@ print(top_artists)
 ```
 
 
-What is the relationship of song rank (`pos`) and the top 10 artists (`artist_name`)?
+What is the relationship of the top 10 artists (`artist_name`)?
+```{r}
+ggplot(q1c_data, aes(x = artist_name, fill = ..count..)) +
+  geom_bar()
+```
+
+
+What is the relationship of song rank (`pos`) and the top 10 artists?
 ```{r}
 ggplot(data = q1c_data) +
   geom_boxplot(mapping = aes(x = artist_name , y = pos))
@@ -113,12 +119,5 @@ What is the relationship between duration (`duration_ms`) and the top 10 artists
 ```{r}
 ggplot(data = q1c_data) +
   geom_boxplot(mapping = aes(x =artist_name, y = pos))
-```
-
-
-What is the relationship between playlist (`playlist_name`) and pos?
-```{r}
-ggplot(data = spotify_all) +
-  geom_boxplot(mapping = aes(x = playlist_name, y = pos))
 ```
 
