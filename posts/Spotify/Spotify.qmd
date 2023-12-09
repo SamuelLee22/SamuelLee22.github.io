@@ -2,7 +2,7 @@
 title: Spotify Data
 author: Samuel Lee
 date: "2023-12-09"
-categories: [data]
+categories: [Data]
 
 toc: true
 toc-title: "Table of Contents"
@@ -64,7 +64,7 @@ q1c_data <- subset(spotify_all, artist_name %in% specific_artists)
 
 # Introduction 
 
-The data frame `spotify_all` displays information about Spotify users' playlists
+The data frame `spotify_all` displays information about Spotify users' playlists :notes:
 
 
 
@@ -101,21 +101,21 @@ print(top_artists)
 ```
 
 
-What is the relationship of the top 10 artists (`artist_name`)?
+What is the relationship between the top 10 most popular artists (`artist_name`)?
 ```{r}
 ggplot(q1c_data, aes(x = artist_name, fill = ..count..)) +
   geom_bar()
 ```
 
 
-What is the relationship of song rank (`pos`) and the top 10 artists?
+What is the relationship between `pos` and the top 10 artists?
 ```{r}
 ggplot(data = q1c_data) +
   geom_boxplot(mapping = aes(x = artist_name , y = pos))
 ```
 
 
-What is the relationship between duration (`duration_ms`) and the top 10 artists?
+What is the relationship between `duration_ms` and the top 10 artists?
 ```{r}
 ggplot(data = q1c_data) +
   geom_boxplot(mapping = aes(x =artist_name, y = duration_ms))

@@ -2,7 +2,7 @@
 title: NYC Restuarant Data
 author: Samuel Lee
 date: "2023-12-09"
-categories: [data]
+categories: [Data]
 
 toc: true
 toc-title: "Table of Contents"
@@ -50,7 +50,7 @@ restaurant <- read_csv(
 
 # Introduction 
 
-The data frame `restaurant` displays inspection data from a variety of restaurants across New York City
+The data frame `restaurant` displays inspection data from a variety of restaurants across New York City :hamburger: :fries:
 
 
 
