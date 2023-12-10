@@ -24,6 +24,8 @@ execute:
 
 from: markdown+emoji
 ---
+
+![](group.png)
 ```{r setup}
 #| include: false
 library(tidyverse)
