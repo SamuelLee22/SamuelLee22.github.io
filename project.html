@@ -656,6 +656,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Gonzaga shows the highest chances of beating an average division 1 college basketball team among all division 1 college basketball teams</p>
+</section>
+<section id="field-goal-percentage-vs-winning" class="level3" data-number="2.2.5">
+<h3 data-number="2.2.5" class="anchored" data-anchor-id="field-goal-percentage-vs-winning"><span class="header-section-number">2.2.5</span> Field Goal Percentage vs Winning</h3>
+<p>What is the relationship between field goal percentage <code>EFG_O</code> and the number of games won <code>W</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> college_bball) <span class="sc">+</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> EFG_O, <span class="at">y =</span> W))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="project_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="864"></p>
+</div>
+</div>
+<p>There is a positive relationship between field goal percentage and number of games won. So, as a team increases their field goal percentage, they will most likely win more games</p>
 
 
 </section>

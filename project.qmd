@@ -145,3 +145,13 @@ ggplot(data = top_5_power) +
 ```
 Gonzaga shows the highest chances of beating an average division 1 college basketball team among all division 1 college basketball teams
 
+
+### Field Goal Percentage vs Winning
+
+What is the relationship between field goal percentage `EFG_O` and the number of games won `W`
+```{r}
+library(ggplot2)
+ggplot(data = college_bball) +
+  geom_point(mapping = aes(x = EFG_O, y = W))
+```
+There is a positive relationship between field goal percentage and number of games won. So, as a team increases their field goal percentage, they will most likely win more games
