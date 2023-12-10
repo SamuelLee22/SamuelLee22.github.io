@@ -53,7 +53,7 @@
     "href": "blog-listing.html",
     "title": "Data Analysis ",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nSpotify Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nNYC Restuarant Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nHomework 5\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nBeer Market Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nSamuel Lee\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nSpotify Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nNYC Restuarant Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nHomework 5\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\nBeer Market Data\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nSamuel Lee\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 7, 2023\n\n\nSamuel Lee\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -80,8 +80,8 @@
     "objectID": "posts/HW 5 Answers/HW5.html#summary-statistics",
     "href": "posts/HW 5 Answers/HW5.html#summary-statistics",
     "title": "Homework 5",
-    "section": "2.1 Summary Statistics",
-    "text": "2.1 Summary Statistics\n\n\n\n  \n\n\n\nskim(restaurant) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nrestaurant\n\n\nNumber of rows\n17633\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n10\n\n\nnumeric\n2\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nDBA\n1\n1\n75\n0\n13914\n0\n\n\nBORO\n1\n5\n13\n0\n5\n0\n\n\nSTREET\n1\n5\n40\n0\n2038\n0\n\n\nCUISINE DESCRIPTION\n1\n4\n30\n0\n87\n0\n\n\nINSPECTION DATE\n1\n10\n10\n0\n751\n0\n\n\nACTION\n1\n33\n47\n0\n2\n0\n\n\nVIOLATION CODE\n1\n3\n5\n0\n60\n0\n\n\nVIOLATION DESCRIPTION\n1\n19\n940\n0\n101\n0\n\n\nCRITICAL FLAG\n1\n8\n12\n0\n2\n0\n\n\nGRADE\n1\n1\n1\n0\n3\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nCAMIS\n1\n47112537.51\n4197913.0\n30191841\n41551354\n50049290\n50094455\n50133690\n▁▁▃▁▇\n\n\nSCORE\n1\n10.44\n5.9\n0\n7\n10\n12\n86\n▇▁▁▁▁"
+    "section": "1.1 Summary Statistics",
+    "text": "1.1 Summary Statistics\n\nrmarkdown::paged_table(NFL2022_stuffs)\n\n\n\n  \n\n\n\n\nskim(NFL2022_stuffs) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nNFL2022_stuffs\n\n\nNumber of rows\n50147\n\n\nNumber of columns\n10\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n2\n\n\nnumeric\n8\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\ngame_id\n1.00\n13\n15\n0\n284\n0\n\n\nposteam\n0.93\n2\n3\n0\n32\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nplay_id\n1.00\n2057.86\n1194.22\n1\n1039.00\n2034.00\n3065.50\n5523\n▇▇▇▅▁\n\n\ndrive\n0.99\n11.48\n6.59\n1\n6.00\n11.00\n17.00\n35\n▇▇▇▂▁\n\n\nweek\n1.00\n9.91\n5.61\n1\n5.00\n10.00\n15.00\n22\n▇▆▆▆▃\n\n\nqtr\n1.00\n2.58\n1.14\n1\n2.00\n3.00\n4.00\n5\n▆▇▆▇▁\n\n\ndown\n0.83\n2.00\n1.00\n1\n1.00\n2.00\n3.00\n4\n▇▆▁▃▂\n\n\nhalf_seconds_remaining\n1.00\n796.94\n564.41\n0\n255.00\n774.00\n1285.00\n1800\n▇▅▅▅▅\n\n\npass\n1.00\n0.45\n0.50\n0\n0.00\n0.00\n1.00\n1\n▇▁▁▁▆\n\n\nwp\n0.99\n0.51\n0.29\n0\n0.29\n0.52\n0.73\n1\n▆▆▇▆▆"
   },
   {
     "objectID": "posts/HW 5 Answers/HW5.html#visualization",
@@ -103,5 +103,54 @@
     "title": "Spotify Data",
     "section": "2.2 Visualization",
     "text": "2.2 Visualization\nWho are the top 10 most popular artists (artist_name)?\n\nartist_counts &lt;- table(new_dataset$artist_name)\nartist_counts_df &lt;- as.data.frame(artist_counts)\ncolnames(artist_counts_df) &lt;- c(\"artist_name\", \"count\")\nsorted_artists &lt;- artist_counts_df[order(desc(artist_counts_df$count)), ]\ntop_artists &lt;- head(sorted_artists, 10)\nprint(top_artists)\n\n           artist_name count\n4648             Drake  2715\n8693        Kanye West  1065\n8867    Kendrick Lamar  1035\n13670          Rihanna   915\n17035       The Weeknd   913\n5948            Future   784\n5083            Eminem   760\n9754      Lil Uzi Vert   728\n4829        Ed Sheeran   719\n16057 The Chainsmokers   642\n\n\nWhat is the relationship between the top 10 most popular artists (artist_name)?\n\nggplot(q1c_data, aes(x = artist_name, fill = ..count..)) +\n  geom_bar()\n\n\n\n\nWhat is the relationship between pos and the top 10 artists?\n\nggplot(data = q1c_data) +\n  geom_boxplot(mapping = aes(x = artist_name , y = pos))\n\n\n\n\nWhat is the relationship between duration_ms and the top 10 artists?\n\nggplot(data = q1c_data) +\n  geom_boxplot(mapping = aes(x =artist_name, y = duration_ms))"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2a",
+    "href": "posts/HW 5 Answers/HW5.html#q2a",
+    "title": "Homework 5",
+    "section": "1.2 Q2a",
+    "text": "1.2 Q2a\nIn data.frame, NFL2022_stuffs, remove observations for which values of posteam is missing\n\nNFL2022_stuffs &lt;- na.omit(NFL2022_stuffs[!is.na(NFL2022_stuffs$posteam), ])\n\nrmarkdown::paged_table(NFL2022_stuffs)"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2b",
+    "href": "posts/HW 5 Answers/HW5.html#q2b",
+    "title": "Homework 5",
+    "section": "1.3 Q2b",
+    "text": "1.3 Q2b\nSummarize the mean value of pass for each posteam when all of the following conditions hold: 1. wp is greater than 20% and less than 75% 2. down is less than or equal to 2 3. half_seconds_remaining is greater than 120\n\nfiltered_data &lt;- NFL2022_stuffs[NFL2022_stuffs$wp &gt; 0.20 & NFL2022_stuffs$wp &lt; 0.75 &\n                                  NFL2022_stuffs$down &lt;= 2 &\n                                  NFL2022_stuffs$half_seconds_remaining &gt; 120, ]\nmean_pass_by_posteam &lt;- aggregate(filtered_data$pass, by=list(filtered_data$posteam), FUN=mean)\ncolnames(mean_pass_by_posteam) &lt;- c(\"posteam\", \"mean_pass\")\nprint(mean_pass_by_posteam)\n\n   posteam mean_pass\n1      ARI 0.5528455\n2      ATL 0.4000000\n3      BAL 0.5198330\n4      BUF 0.6043956\n5      CAR 0.4578947\n6      CHI 0.4198312\n7      CIN 0.6567460\n8      CLE 0.4908722\n9      DAL 0.4742647\n10     DEN 0.4930796\n11     DET 0.4906542\n12      GB 0.5088496\n13     HOU 0.4793388\n14     IND 0.4938525\n15     JAX 0.5207921\n16      KC 0.6376068\n17      LA 0.5104895\n18     LAC 0.6076190\n19      LV 0.4921569\n20     MIA 0.5334646\n21     MIN 0.5555556\n22      NE 0.5208333\n23      NO 0.4214464\n24     NYG 0.5153846\n25     NYJ 0.5061728\n26     PHI 0.5801217\n27     PIT 0.4796296\n28     SEA 0.5662188\n29      SF 0.4805726\n30      TB 0.5529412\n31     TEN 0.4342723\n32     WAS 0.4054581"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2c",
+    "href": "posts/HW 5 Answers/HW5.html#q2c",
+    "title": "Homework 5",
+    "section": "1.4 Q2c",
+    "text": "1.4 Q2c\nProvide both (1) a ggplot code with geom_point() using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of pass for each posteam. In the ggplot, reorder the posteam categories based on the mean value of pass in ascending or in descending order\n\nlibrary(ggplot2)\n\nmean_pass_by_posteam$posteam &lt;- factor(mean_pass_by_posteam$posteam, \n                                       levels = mean_pass_by_posteam$posteam[order(mean_pass_by_posteam$mean_pass)])\n\n\nggplot(mean_pass_by_posteam, aes(x = mean_pass, y = posteam)) +\n  geom_point() +\n  labs(x = \"Percent of Pass Plays\", y = \"Team with Possession\", title = \"Team vs Percent of Pass Plays\") +\n  theme(axis.text.x = element_text(angle = 45, hjust = 1))"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2d",
+    "href": "posts/HW 5 Answers/HW5.html#q2d",
+    "title": "Homework 5",
+    "section": "1.5 Q2d",
+    "text": "1.5 Q2d\nConsider the following data.frame:\n\nNFL2022_epa &lt;- read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')\nrmarkdown::paged_table(NFL2022_epa)\n\n\n\n  \n\n\n\nCreate the data.frame, NFL2022_stuffs_EPA, that includes:\n\nAll the variables in the data.frame, NFL2022_stuffs\nThe variables, passer, receiver, and epa, from the data.frame, NFL2022_epa by joining the two data.frames\n\nIn the resulting data.frame, NFL2022_stuffs_EPA, remove observations with NA in passer\n\nNFL2022_epa &lt;- read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')\nNFL2022_stuffs_EPA &lt;- merge(NFL2022_stuffs, NFL2022_epa[, c(\"game_id\", \"passer\", \"receiver\", \"epa\")], by = \"game_id\")\nNFL2022_stuffs_EPA &lt;- NFL2022_stuffs_EPA[complete.cases(NFL2022_stuffs_EPA$passer), ]\n\nrmarkdown::paged_table(NFL2022_stuffs_EPA)"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2e",
+    "href": "posts/HW 5 Answers/HW5.html#q2e",
+    "title": "Homework 5",
+    "section": "1.6 Q2e",
+    "text": "1.6 Q2e\nProvide both (1) a single ggplot and (2) a simple comment to describe the NFL weekly trend of weekly mean value of epa for each of the following two passers: 1. \"J.Allen\" 2. \"P.Mahomes\"\n\nlibrary(ggplot2)\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA[NFL2022_stuffs_EPA$passer %in% selected_passers, ]\nfiltered_data$week &lt;- factor(filtered_data$week, levels = unique(filtered_data$week))\nweekly_mean_epa &lt;- aggregate(epa ~ week + passer, data = filtered_data, FUN = mean)\n\nggplot(weekly_mean_epa, aes(x = week, y = epa, color = passer, group = passer)) +\n  geom_line() +\n  labs(x = \"Week\", y = \"Weekly Mean EPA\", title = \"NFL Weekly Trend of Mean EPA for J.Allen and P.Mahomes\") +\n  theme_minimal()\n\n\n\n\nPatrick Mahomes generally has a higher weekly mean epa than Josh Allen"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2f",
+    "href": "posts/HW 5 Answers/HW5.html#q2f",
+    "title": "Homework 5",
+    "section": "1.7 Q2f",
+    "text": "1.7 Q2f\nCalculate the difference between the mean value of epa for \"J.Allen\" the mean value of epa for \"P.Mahomes\" for each value of week.\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA[NFL2022_stuffs_EPA$passer %in% selected_passers, ]\nmean_epa_by_week &lt;- aggregate(epa ~ week + passer, data = filtered_data, FUN = mean)\nepa_diff &lt;- reshape(mean_epa_by_week, idvar = \"week\", timevar = \"passer\", direction = \"wide\")\nepa_diff$epa_diff &lt;- epa_diff$epa.J.Allen - epa_diff$epa.P.Mahomes\nprint(epa_diff)\n\n   week epa.J.Allen epa.P.Mahomes    epa_diff\n1     1  0.52963415    0.69840404 -0.16876989\n2     2  0.48691617    0.14841216  0.33850401\n3     3  0.16932725    0.24559401 -0.07626677\n4     4  0.19104682    0.27137549 -0.08032867\n5     5  0.62742248    0.30228470  0.32513777\n6     6  0.30652151    0.13313721  0.17338430\n7     8  0.22419910            NA          NA\n8     9 -0.20799939    0.09646711 -0.30446651\n9    10  0.16051785    0.58904325 -0.42852541\n10   11  0.19206366    0.36503570 -0.17297205\n11   12  0.09828258    0.24726968 -0.14898710\n12   13  0.33021344    0.20622354  0.12398990\n13   14 -0.06207961    0.13106472 -0.19314433\n14   15  0.25693067    0.32195856 -0.06502788\n15   16  0.02143551    0.12156763 -0.10013212\n16   18  0.20865931    0.17297609  0.03568322\n17   19 -0.20950326            NA          NA\n18   20 -0.04289048    0.27933023 -0.32222071\n25    7          NA    0.70130690          NA\n34   17          NA    0.19847047          NA\n37   21          NA    0.19610416          NA\n38   22          NA    0.55937371          NA"
+  },
+  {
+    "objectID": "posts/HW 5 Answers/HW5.html#q2g",
+    "href": "posts/HW 5 Answers/HW5.html#q2g",
+    "title": "Homework 5",
+    "section": "1.8 Q2g",
+    "text": "1.8 Q2g\nSummarize the resulting data.frame in Q2d, with the following four variables:\n\nposteam: String abbreviation for the team with possession.\npasser: Name of the player who passed a ball to a receiver by initially taking a three-step drop, and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks.)\nmean_epa: Mean value of epa in 2022 for each passer\nn_pass: Number of observations for each passer\n\nThen find the top 10 NFL passers in 2022 in terms of the mean value of epa, conditioning that n_pass must be greater than or equal to the third quantile level of n_pass\n\nlibrary(dplyr)\nsummary_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  group_by(posteam, passer) %&gt;%\n  summarise(mean_epa = mean(epa),\n            n_pass = n())\nthird_quantile &lt;- quantile(summary_data$n_pass, 0.75)\ntop_passers &lt;- summary_data %&gt;%\n  filter(n_pass &gt;= third_quantile) %&gt;%\n  top_n(10, mean_epa) %&gt;%\n  arrange(desc(mean_epa))\nprint(top_passers)\n\n# A tibble: 183 × 4\n# Groups:   posteam [32]\n   posteam passer      mean_epa n_pass\n   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;  &lt;int&gt;\n 1 CHI     K.Cousins      0.474   3676\n 2 CHI     J.Goff         0.473   4036\n 3 SEA     B.Purdy        0.466   4736\n 4 LA      J.Garoppolo    0.458   4088\n 5 JAX     P.Mahomes      0.456   5237\n 6 BUF     J.Brissett     0.442   3744\n 7 CAR     J.Goff         0.359   3900\n 8 IND     T.Lawrence     0.326   4428\n 9 TEN     T.Lawrence     0.290   6042\n10 MIN     J.Goff         0.288   6299\n# ℹ 173 more rows"
   }
 ]
