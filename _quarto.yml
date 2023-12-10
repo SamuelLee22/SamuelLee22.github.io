@@ -14,7 +14,7 @@ website:
           - project.qmd
           
 
-  page-footer: 
+page-footer: 
     center: "Powered with GitHub and Quarto<br>© Samuel Lee, 2023"
 
 format:
