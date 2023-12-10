@@ -10,10 +10,7 @@ website:
       - text: Blog
         href: blog-listing.qmd
       - text: Project
-        menu:
-          - project.qmd
-          - HW5.qmd 
-          
+        href: project.qmd
 
 page-footer: 
     center: "Powered with GitHub and Quarto<br>© Samuel Lee, 2023"
