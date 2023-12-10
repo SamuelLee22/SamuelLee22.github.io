@@ -12,6 +12,8 @@ website:
       - text: "Project"
         menu:
           - project.qmd
+          
+
   page-footer: 
     center: "Powered with GitHub and Quarto<br>© Samuel Lee, 2023"
 
