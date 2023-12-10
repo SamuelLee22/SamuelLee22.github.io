@@ -12,6 +12,7 @@ website:
       - text: "Project"
         menu:
           - project.qmd
+          - HW5.qmd 
           
 
 page-footer: 
