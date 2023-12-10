@@ -2,8 +2,10 @@
   {
     "listing": "/blog-listing.html",
     "items": [
+      "/posts/Group Project/project.html",
       "/posts/Spotify/Spotify.html",
       "/posts/NYC Restaurants/NYC-res.html",
+      "/posts/HW 5 Answers/HW5.html",
       "/posts/Beer Markets/beer_markets.html",
       "/posts/welcome/index.html"
     ]
