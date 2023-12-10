@@ -148,7 +148,7 @@ Gonzaga shows the highest chances of beating an average division 1 college baske
 
 ### Field Goal Percentage vs Winning
 
-What is the relationship between field goal percentage `EFG_O` and the number of games won `W`
+What is the relationship between field goal percentage `EFG_O` and the number of games won `W`?
 ```{r}
 library(ggplot2)
 ggplot(data = college_bball) +
